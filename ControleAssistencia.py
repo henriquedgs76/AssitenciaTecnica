@@ -115,7 +115,7 @@ class ControleAssistenciaGUI(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle('Assistência Técnica Henrique')
+        self.setWindowTitle('Assistência Técnica Henrique 2023')
         self.setGeometry(100, 100, 800, 600)
 
         self.controle_assistencia = ControleAssistencia()
@@ -123,7 +123,7 @@ class ControleAssistenciaGUI(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        titulo_label = QLabel('Assistência Técnica Henrique', self)
+        titulo_label = QLabel('Assistência Técnica Henrique 2023', self)
         titulo_label.setAlignment(Qt.AlignCenter)
         titulo_font = QFont("Arial", 16, QFont.Bold)
         titulo_label.setFont(titulo_font)
